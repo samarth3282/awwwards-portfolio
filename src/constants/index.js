@@ -80,18 +80,16 @@ export const servicesData = [
 export const projects = [
     {
         id: 1,
-        name: "Mobile Accessories E-commerce",
+        name: "Casa Verde",
         description:
-            "An online store specializing in phone accessories including cases, chargers, cables, and power banks with MagSafe compatibility.",
+            "An interactive landing page built with GSAP, inspired by Awwwards-winning designs. Showcases a premium mojito bar experience with smooth animations, micro-interactions, and storytelling transitions.",
         href: "",
-        image: "/assets/projects/mobile-accessories-store.jpg",
+        image: "/assets/projects/gsap_mojito.png",
         bgImage: "/assets/backgrounds/blanket.jpg",
         frameworks: [
             { id: 1, name: "React" },
-            { id: 2, name: "Next.js" },
-            { id: 3, name: "Node.js" },
-            { id: 4, name: "MongoDB" },
-            { id: 5, name: "Tailwind CSS" },
+            { id: 2, name: "Tailwind CSS" },
+            { id: 3, name: "GSAP" }
         ],
     },
     {
@@ -167,6 +165,20 @@ export const projects = [
             { id: 2, name: "Node.js" },
             { id: 3, name: "MongoDB" },
             { id: 4, name: "Chakra UI" },
+        ],
+    },
+    {
+        id: 7,
+        name: "Vue Jobs",
+        description:
+            "A Full-Stack application build using Vue.js and json-server",
+        href: "",
+        image: "/assets/projects/vue_jobs.png",
+        bgImage: "/assets/backgrounds/curtains.jpg",
+        frameworks: [
+            { id: 1, name: "Vue.js" },
+            { id: 2, name: "Tailwind CSS" },
+            { id: 3, name: "json-server" },
         ],
     },
 ];
