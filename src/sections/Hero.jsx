@@ -16,6 +16,7 @@ const Hero = () => {
                 title={"Samarth Patel"}
                 text={text}
                 textColor={"text-black"}
+                firstWordColor={'text-black'}
             />
             <figure
                 className="absolute inset-0 -z-50"

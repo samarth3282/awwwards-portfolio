@@ -6,7 +6,7 @@ import { useRef } from "react"
 
 gsap.registerPlugin(ScrollTrigger)
 
-const AnimatedTextLines = ({ text, className, firstWordColor }) => {
+const AnimatedTextLines = ({ text, className, firstWordColor = "text-white" }) => {
     const containerRef = useRef(null);
     const lines = text.split('\n').filter((line) => line.trim() !== "")
     const linesRef = useRef([]);
