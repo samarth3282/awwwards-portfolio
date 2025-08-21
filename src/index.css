@@ -153,6 +153,11 @@ body {
   @apply text-[30px] sm:text-[40px] md:text-[50px] lg:text-[70px];
 }
 
+@utility value-text-responsive {
+  @apply text-2xl md:text-[26px] lg:text-[32px];
+}
+
+
 .extra-light-font {
   font-family: var(--font-amiamie);
   font-weight: 300 !important;
