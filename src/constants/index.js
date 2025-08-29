@@ -20,7 +20,7 @@ const tailwindIcon = "skill-icons:tailwindcss-dark";
 const gsapIcon = "simple-icons:gsap";
 const vueIcon = "logos:vue";
 const jsonIcon = "simple-icons:json";
-const pugIcon = "skill-icons:pug-dark";
+// const pugIcon = "skill-icons:pug-dark";
 const restApiIcon = "dashicons:rest-api"
 export const servicesData = [
   {
@@ -132,17 +132,20 @@ export const profiles = [
 export const projects = [
   {
     id: 1,
-    name: "Casa Verde",
+    name: "Natours",
     description:
-      "An interactive landing page built with GSAP, inspired by Awwwards-winning designs. Showcases a premium mojito bar experience with smooth animations, micro-interactions, and storytelling transitions.",
-    href: "https://try-samarths-cocktails.vercel.app/",
-    githubHref: "https://github.com/samarth3282/try-samarths-cocktails",
-    image: "/assets/projects/gsap_mojito.png",
-    bgImage: "/assets/backgrounds/blanket.jpg",
+      "A full-stack chat application based on socket.io as a major technology used",
+    href: "https://natours-frontend-rhey.onrender.com/",
+    githubHref: "https://github.com/samarth3282/natours-frontend",
+    image: "/assets/projects/natours.png",
+    bgImage: "/assets/backgrounds/curtains.jpg",
     frameworks: [
-      { id: 1, name: "React", icon: reactIcon },
-      { id: 2, name: "Tailwind CSS", icon: tailwindIcon },
-      { id: 3, name: "GSAP", icon: gsapIcon }
+      { id: 1, name: "rest API", icon: restApiIcon },
+      { id: 2, name: "React.js", icon: reactIcon },
+      { id: 3, name: "node.js", icon: nodeIcon },
+      { id: 4, name: "express.js", icon: expressIcon },
+      { id: 5, name: "mongo db", icon: mongoIcon },
+      // { id: 3, name: "json-server" },
     ],
   },
   {
@@ -162,17 +165,17 @@ export const projects = [
   },
   {
     id: 3,
-    name: "WorldWise (Under Dev)",
+    name: "Casa Verde",
     description:
-      "WorldWise — a travel tracking app that lets users pin locations on an interactive map, add trip details, and manage journeys using React Router and Context API.",
-    href: "/underdev",
-    githubHref: "/underdev",
-    image: "/assets/projects/worldwise.png",
-    bgImage: "/assets/backgrounds/curtains.jpg",
+      "An interactive landing page built with GSAP, inspired by Awwwards-winning designs. Showcases a premium mojito bar experience with smooth animations, micro-interactions, and storytelling transitions.",
+    href: "https://try-samarths-cocktails.vercel.app/",
+    githubHref: "https://github.com/samarth3282/try-samarths-cocktails",
+    image: "/assets/projects/gsap_mojito.png",
+    bgImage: "/assets/backgrounds/blanket.jpg",
     frameworks: [
-      { id: 1, name: "React.js", icon: reactIcon },
-      { id: 2, name: "CSS", icon: cssIcon },
-      // { id: 3, name: "json-server" },
+      { id: 1, name: "React", icon: reactIcon },
+      { id: 2, name: "Tailwind CSS", icon: tailwindIcon },
+      { id: 3, name: "GSAP", icon: gsapIcon }
     ],
   },
   {
@@ -210,6 +213,23 @@ export const projects = [
   },
   {
     id: 6,
+    name: "WorldWise (Under Dev)",
+    description:
+      "WorldWise — a travel tracking app that lets users pin locations on an interactive map, add trip details, and manage journeys using React Router and Context API.",
+    href: "/underdev",
+    githubHref: "/underdev",
+    image: "/assets/projects/worldwise.png",
+    bgImage: "/assets/backgrounds/curtains.jpg",
+    frameworks: [
+      { id: 1, name: "React.js", icon: reactIcon },
+      { id: 2, name: "CSS", icon: cssIcon },
+      // { id: 3, name: "json-server" },
+    ],
+  },
+
+
+  {
+    id: 7,
     name: "Chat App (Under Dev)",
     description:
       "A full-stack chat application based on socket.io as a major technology used",
@@ -226,24 +246,7 @@ export const projects = [
       // { id: 3, name: "json-server" },
     ],
   },
-  {
-    id: 7,
-    name: "Natours (Under Dev)",
-    description:
-      "A full-stack chat application based on socket.io as a major technology used",
-    href: "/underdev",
-    githubHref: "/underdev",
-    image: "/assets/projects/natours.png",
-    bgImage: "/assets/backgrounds/curtains.jpg",
-    frameworks: [
-      { id: 1, name: "rest API", icon: restApiIcon },
-      { id: 2, name: "pug", icon: pugIcon },
-      { id: 3, name: "node.js", icon: nodeIcon },
-      { id: 4, name: "express.js", icon: expressIcon },
-      { id: 5, name: "mongo db", icon: mongoIcon },
-      // { id: 3, name: "json-server" },
-    ],
-  },
+
 ];
 export const socials = [
   { name: "Instagram", href: "https://www.instagram.com/samarth3282" },
